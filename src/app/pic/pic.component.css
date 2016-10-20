@@ -1,0 +1,52 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+.module {
+	  background: 
+	      linear-gradient(
+	            rgba(0, 0, 0, 0.6),
+		          rgba(0, 0, 0, 0.6)
+			      ),
+			          url(https://firebasestorage.googleapis.com/v0/b/spiserietforde.appspot.com/o/spisfram.jpg?alt=media&token=50f49cb0-a1a6-46fa-b31b-130ea1722d5b);
+				    background-size: cover;
+				      width: 100%;
+				        height: 400px;
+					 
+					    position: relative;
+					      
+				      }
+
+				      .top h2 {
+					        color: white;
+						  margin: 0;
+						    padding: 20px;
+					    }
+
+					    .lr p {
+						      font-family: 'Roboto', sans-serif;
+						        position: absolute;
+							  bottom: 20px;
+							    left: 20px;
+							      color: white;
+							        margin: 0;
+							}
+
+							.mid h2 {
+								  font-family: 'Roboto', sans-serif;
+								    font-weight: 900;
+								      color: white;
+								        text-transform: uppercase;
+									  margin: 0;
+									    position: absolute;
+									      top: 50%;
+									        left: 50%;
+										  font-size: 2rem;
+										    transform: translate(-50%, -50%);
+									    }
+
+									    .cap p {
+										      padding: 20px;
+										        color: white;
+											  font: 12px Monaco, Mono-Space;
+											    margin: 0;
+										    }

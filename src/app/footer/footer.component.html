@@ -1,0 +1,45 @@
+
+   <div class="ui grey inverted vertical footer segment">
+  <div class="ui center aligned container">
+    <div class="ui stackable inverted grid">
+      <div class="three wide column">
+        <h4 class="ui inverted header">Åpningstider:</h4>
+       <sm-list>
+          <sm-item  >Mandag {{ (items | async)?.man }}</sm-item>
+          <sm-item>Tysdag {{ (items | async)?.tys }}</sm-item>
+           <sm-item >Onsdag {{ (items | async)?.ons }}</sm-item>
+          <sm-item>Torsdag {{ (items | async)?.tor }}</sm-item>
+       </sm-list>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">Helg:</h4>
+     <sm-list>
+           <sm-item >Fredag {{ (items | async)?.fre }}</sm-item>
+          <sm-item>Lørdag {{ (items | async)?.lor }}</sm-item>
+           <sm-item >Søndag {{ (items | async)?.son }}</sm-item>
+       </sm-list>
+      </div>
+
+      <div class="seven wide right floated column">
+        <h4 class="ui inverted  header">{{ (items | async)?.namn }}</h4>
+        <p>  {{ (items | async)?.adr }},
+		               {{ (items | async)?.post }}
+		                 </p>
+    
+         <sm-button class="blue" icon="facebook" onclick="window.open('https://www.facebook.com/Spiseriet-F%C3%B8rde-Amfi-1055536904520448/','_blank');return false;"></sm-button>
+		<sm-button class="blue"  icon="call" onclick="window.open('tel:95125147','_blank');return false;"></sm-button>
+	  <sm-button class="blue"  icon="mail outline" onclick="window.open('mailto:anngjervik@gmail.com','_blank');return false;"></sm-button>
+      </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <img  class="ui centered mini image">
+    <div class="ui horizontal inverted small divided link list">
+      <a class="item" href="https://nydaltech.no" target="_blank">Levert av Nydaltech</a>
+    </div>
+  </div>
+</div>
+   
+   
+   
+   
+   

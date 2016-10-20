@@ -1,0 +1,31 @@
+  <div class="ui container">
+<h2 class="ui center aligned header">
+
+  <div class="sub header"></div>
+</h2>
+<h2 class="ui center aligned header">
+Varme rettar
+  <div class="sub header"></div>
+</h2>
+
+	<div class="ui three stackable cards">
+	<div class="card" *ngFor="let item of items | async">
+  <div class="content">
+    <div class="header">{{item.info.hh}}</div>
+    <div class="description">
+      <p>{{item.info.hp}}</p>
+    </div>
+  </div>
+  <div class="extra content">
+   <span class="left floated like">
+     
+      {{item.info.hnr}}
+    </span>
+    <span class="right floated star">
+
+     {{item.info.hkr}},-
+    </span>
+  </div>
+</div>
+   </div>
+  </div>

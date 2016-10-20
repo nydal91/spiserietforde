@@ -1,0 +1,38 @@
+
+		    <div class="ui container">              
+
+ <h2 class="ui center aligned header">
+
+  <div class="sub header"></div>
+</h2>
+<h2 class="ui center aligned header">
+  Barnemeny
+  <div class="sub header"></div>
+</h2>
+
+	<div class="ui three stackable cards">
+	<div class="card" *ngFor="let item of items | async">
+  <div class="content">
+    <div class="header">{{item.info.bh}}</div>
+    <div class="description">
+      <p>{{item.info.bp}}</p>
+    </div>
+  </div>
+  <div class="extra content">
+    <span class="left floated like">
+     
+      {{item.info.bnr}}
+    </span>
+    <span class="right floated star">
+  
+     {{item.info.bkr}},-
+    </span>
+  </div>
+</div>
+   </div>
+		    </div>
+
+
+
+											
+					  

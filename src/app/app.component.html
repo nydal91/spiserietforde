@@ -1,3 +1,35 @@
-<h1>
-  {{title}}
-</h1>
+<sm-menu  class="fluid four item labeled icon inverted blue ">
+	<a sm-item   routerLink="">Spiseriet Førde</a>
+<a sm-item   routerLink="/about">Om</a>
+
+		        <sm-menu class="menu right secondary icon">
+            <a sm-item  icon="food" routerLink="/menu" >Meny</a>
+        
+            <a sm-item icon="sidebar big" (click)="menuSidebar.show({transition: 'overlay'})"></a>
+            <sm-sidebar class="right vertical inverted sidebar labeled menu blue huge" #menuSidebar>
+                  <a class="item" routerLink="/suppe"> Dagens Suppe </a>
+				     <a class="item" routerLink="/salatar"> Salatar </a>
+					 <a class="item" routerLink="/barnemeny"> Barnemeny </a>
+                 
+					 <a class="item" routerLink="/småretter"> Småretter </a>
+			    <a class="item" routerLink="/påsmurt"> Påsmurt </a>
+
+                  <a class="item" routerLink="/pålegg"> Pålegg</a>
+				   <a class="item" routerLink="/burgermeny"> Burgermeny</a>
+				    <a class="item" routerLink="/varmerettar"> Varme rettar</a>
+					<a class="item" routerLink="/kakermeny"> Kaker</a>
+					<a class="item" routerLink="/drikkemeny"> Drikke</a>
+						<a class="item" routerLink="/kaffimeny"> Kaffimeny</a>
+            </sm-sidebar>
+        </sm-menu>
+		    </sm-menu> 
+   <router-outlet></router-outlet>
+
+
+
+   
+
+
+		
+
+		    <app-footer></app-footer> 

@@ -1,0 +1,27 @@
+
+
+
+<sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [zoomControl]="false">
+	  <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+</sebm-google-map>
+
+  <div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="eight wide column">
+			<div class="ui segment">
+          <h3 class="ui header">{{ (frams | async)?.abouttit }}</h3>
+          <p>{{ (frams | async)?.aboutpp }}</p>
+          <h3 class="ui header">{{ (frams | async)?.abouttit2 }}</h3>
+          <p>{{ (frams | async)?.aboutpp2 }}</p>
+        </div>
+        </div>
+        <div class="six wide right floated column">
+			
+          <img src="{{ (frams | async)?.aboutpic }}" class="ui large bordered rounded image">
+			
+		</div>
+      </div>
+      
+    </div>
+  </div>

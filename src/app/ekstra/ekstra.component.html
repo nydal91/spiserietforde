@@ -1,0 +1,28 @@
+
+
+ <h1 class="ui center aligned header">EKSTRA</h1>
+
+
+	<div class="ui two stackable cards">
+	<div class="card" *ngFor="let item of items | async">
+  <div class="content">
+    <div class="header">{{item.info.eh}}</div>
+    <div class="description">
+      <p>{{item.info.ep}}</p>
+    </div>
+  </div>
+  <div class="extra content">
+    <span class="left floated like">
+     
+      {{item.info.enr}}
+    </span>
+    <span class="right floated star">
+     
+     {{item.info.ekr}}
+    </span>
+  </div>
+</div>
+   </div>
+
+
+
