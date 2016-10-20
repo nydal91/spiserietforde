@@ -37,18 +37,10 @@ import { VarmeComponent } from './varme/varme.component';
 
 export const firebaseConfig = {
 	     
-          apiKey: "AIzaSyAakq_aXF-IYrpLgV6bQoxcLHIkyeYTRrc",
-    authDomain: "spiserietforde.firebaseapp.com",
-    databaseURL: "https://spiserietforde.firebaseio.com",
-    storageBucket: "spiserietforde.appspot.com"
-       
-
-
-       //spiseriet førde
-         ///apiKey: "AIzaSyAakq_aXF-IYrpLgV6bQoxcLHIkyeYTRrc",
-    //authDomain: "spiserietforde.firebaseapp.com",
-    ///databaseURL: "https://spiserietforde.firebaseio.com",
-    ///storageBucket: "spiserietforde.appspot.com"
+          apiKey: 
+    authDomain: 
+    databaseURL: 
+    storageBucket:
 };
 
 
